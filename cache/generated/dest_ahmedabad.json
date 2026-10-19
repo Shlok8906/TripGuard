@@ -1,0 +1,328 @@
+{
+ "name": "Ahmedabad",
+ "profile": {
+  "lat": 22.5305,
+  "lon": 70.8237,
+  "country": "India",
+  "state": "Gujarat",
+  "tagline": "City of Arts and Industries",
+  "local": {
+   "mode": "auto/taxi",
+   "cost_per_km": 15,
+   "capacity": 3,
+   "speed_kmh": 30,
+   "station_transfer": 100,
+   "breakfast_pp": 30
+  },
+  "climate": {
+   "rain_prob": [
+    10,
+    15,
+    20,
+    25,
+    20,
+    15,
+    10,
+    5,
+    10,
+    15,
+    20,
+    25
+   ],
+   "tmax": [
+    35,
+    37,
+    38,
+    40,
+    41,
+    42,
+    43,
+    44,
+    43,
+    42,
+    41,
+    40
+   ],
+   "tmin": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    30,
+    29,
+    28,
+    27
+   ]
+  },
+  "stays": [
+   {
+    "id": "ahmedabad-s1",
+    "name": "Riverside guesthouse (AI-estimated)",
+    "type": "hostel_dorm",
+    "unit": "bed",
+    "capacity": 1,
+    "price": 1200,
+    "comfort": 2,
+    "breakfast_included": false,
+    "lat": 22.5356,
+    "lon": 70.8292
+   },
+   {
+    "id": "ahmedabad-s2",
+    "name": "Guesthouse - private room (AI-estimated)",
+    "type": "hostel_private",
+    "unit": "room",
+    "capacity": 2,
+    "price": 1400,
+    "comfort": 3,
+    "breakfast_included": true,
+    "lat": 22.5209,
+    "lon": 70.834
+   },
+   {
+    "id": "ahmedabad-s3",
+    "name": "Budget hotel - room (AI-estimated)",
+    "type": "hotel_budget",
+    "unit": "room",
+    "capacity": 2,
+    "price": 2200,
+    "comfort": 4,
+    "breakfast_included": true,
+    "lat": 22.5165,
+    "lon": 70.8085
+   },
+   {
+    "id": "ahmedabad-s4",
+    "name": "Mid-range hotel - family room (AI-estimated)",
+    "type": "hotel_mid",
+    "unit": "room",
+    "capacity": 3,
+    "price": 3800,
+    "comfort": 5,
+    "breakfast_included": true,
+    "lat": 22.549,
+    "lon": 70.8037
+   }
+  ],
+  "attractions": [
+   {
+    "id": "ahmedabad-a1",
+    "name": "Sankheda",
+    "lat": 22.355,
+    "lon": 70.825,
+    "tags": [
+     "heritage",
+     "spiritual"
+    ],
+    "cost_pp": 0,
+    "duration_min": 30,
+    "open": "09:00",
+    "close": "18:00",
+    "outdoor": true,
+    "best_time": "morning",
+    "closed_days": [],
+    "event": false,
+    "must_see": true,
+    "desc": "Historic site with ancient temples and cultural significance"
+   },
+   {
+    "id": "ahmedabad-a2",
+    "name": "Mangeshwar",
+    "lat": 22.385,
+    "lon": 70.815,
+    "tags": [
+     "heritage",
+     "spiritual"
+    ],
+    "cost_pp": 0,
+    "duration_min": 45,
+    "open": "08:00",
+    "close": "17:00",
+    "outdoor": true,
+    "best_time": "morning",
+    "closed_days": [],
+    "event": false,
+    "must_see": true,
+    "desc": "Ancient temple complex with spiritual importance"
+   },
+   {
+    "id": "ahmedabad-a3",
+    "name": "Siddhivinayak Temple",
+    "lat": 22.5086,
+    "lon": 70.8534,
+    "tags": [
+     "spiritual",
+     "heritage"
+    ],
+    "cost_pp": 0,
+    "duration_min": 60,
+    "open": "05:30",
+    "close": "18:30",
+    "outdoor": false,
+    "best_time": "morning",
+    "closed_days": [],
+    "event": false,
+    "must_see": true,
+    "desc": "One of the most revered Shiva temples in Gujarat"
+   },
+   {
+    "id": "ahmedabad-a4",
+    "name": "Gujarat State Museum",
+    "lat": 22.35,
+    "lon": 70.83,
+    "tags": [
+     "heritage",
+     "culture"
+    ],
+    "cost_pp": 100,
+    "duration_min": 90,
+    "open": "09:30",
+    "close": "17:30",
+    "outdoor": false,
+    "best_time": "any",
+    "closed_days": [
+     6
+    ],
+    "event": false,
+    "must_see": true,
+    "desc": "Museum showcasing Gujarat's rich cultural heritage"
+   },
+   {
+    "id": "ahmedabad-a5",
+    "name": "Raj Ghat",
+    "lat": 22.37,
+    "lon": 70.84,
+    "tags": [
+     "spiritual",
+     "heritage"
+    ],
+    "cost_pp": 0,
+    "duration_min": 45,
+    "open": "06:00",
+    "close": "18:00",
+    "outdoor": true,
+    "best_time": "morning",
+    "closed_days": [],
+    "event": false,
+    "must_see": true,
+    "desc": "Historic site with spiritual significance"
+   },
+   {
+    "id": "ahmedabad-a6",
+    "name": "Mangeshwar Temple",
+    "lat": 22.38,
+    "lon": 70.82,
+    "tags": [
+     "spiritual",
+     "heritage"
+    ],
+    "cost_pp": 0,
+    "duration_min": 60,
+    "open": "07:00",
+    "close": "17:00",
+    "outdoor": true,
+    "best_time": "morning",
+    "closed_days": [],
+    "event": false,
+    "must_see": true,
+    "desc": "Ancient temple complex with spiritual importance"
+   },
+   {
+    "id": "ahmedabad-a7",
+    "name": "Ahmedabad City Palace",
+    "lat": 22.34,
+    "lon": 70.85,
+    "tags": [
+     "heritage",
+     "culture"
+    ],
+    "cost_pp": 150,
+    "duration_min": 120,
+    "open": "09:30",
+    "close": "17:30",
+    "outdoor": true,
+    "best_time": "any",
+    "closed_days": [
+     6
+    ],
+    "event": false,
+    "must_see": false,
+    "desc": "Historic palace showcasing Gujarat's royal heritage"
+   }
+  ],
+  "food": [
+   {
+    "kind": "street",
+    "name": "Street food stall (AI-estimated)",
+    "cost_pp": 50,
+    "tags": [
+     "food",
+     "street"
+    ],
+    "open": "06:00",
+    "close": "22:00",
+    "id": "ahmedabad-f1",
+    "lat": 22.5369,
+    "lon": 70.8306
+   },
+   {
+    "kind": "thali",
+    "name": "Local thali meals (AI-estimated)",
+    "cost_pp": 180,
+    "tags": [
+     "food"
+    ],
+    "open": "08:00",
+    "close": "22:00",
+    "id": "ahmedabad-f2",
+    "lat": 22.5184,
+    "lon": 70.8368
+   },
+   {
+    "kind": "cafe",
+    "name": "Cafe (AI-estimated)",
+    "cost_pp": 250,
+    "tags": [
+     "food",
+     "relax"
+    ],
+    "open": "08:00",
+    "close": "22:30",
+    "id": "ahmedabad-f3",
+    "lat": 22.5127,
+    "lon": 70.8044
+   },
+   {
+    "kind": "restaurant",
+    "name": "Restaurant (AI-estimated)",
+    "cost_pp": 450,
+    "tags": [
+     "food"
+    ],
+    "open": "11:00",
+    "close": "23:00",
+    "id": "ahmedabad-f4",
+    "lat": 22.5541,
+    "lon": 70.7982
+   }
+  ],
+  "coords_source": "model",
+  "profile_notes": [
+   "1 attraction location(s) were unreliable and placed near the centre (map positions approximate)",
+   "stay tier 'private' not usable from the model - template used",
+   "stay tier 'budget_hotel' not usable from the model - template used",
+   "stay tier 'mid_hotel' not usable from the model - template used",
+   "no usable 'thali' food place from the model - template used",
+   "no usable 'cafe' food place from the model - template used",
+   "no usable 'restaurant' food place from the model - template used"
+  ],
+  "generated": true
+ },
+ "model": "ollama:qwen3:4b",
+ "generated_at": "2026-10-19T20:09:01",
+ "asked_as": "Ahemdabad"
+}

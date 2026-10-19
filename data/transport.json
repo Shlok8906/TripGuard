@@ -1,0 +1,4490 @@
+{
+ "_note": "SYNTHETIC timetable and fares, generated from distance formulas. Not real operators.",
+ "routes": {
+  "Pune": {
+   "Goa": {
+    "distance_km": 421,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 600,
+      "fare_pp": 520,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 600,
+      "fare_pp": 520,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 600,
+      "fare_pp": 520,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 600,
+      "fare_pp": 860,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 600,
+      "fare_pp": 860,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 600,
+      "fare_pp": 860,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 560,
+      "fare_pp": 310,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 560,
+      "fare_pp": 310,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 560,
+      "fare_pp": 310,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 560,
+      "fare_pp": 310,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 560,
+      "fare_pp": 890,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 560,
+      "fare_pp": 890,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 560,
+      "fare_pp": 890,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 560,
+      "fare_pp": 890,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 75,
+      "fare_pp": 3000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 75,
+      "fare_pp": 3000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 75,
+      "fare_pp": 3000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Jaipur": {
+    "distance_km": 1192,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1235,
+      "fare_pp": 740,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1235,
+      "fare_pp": 740,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1235,
+      "fare_pp": 740,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1235,
+      "fare_pp": 740,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1235,
+      "fare_pp": 2090,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1235,
+      "fare_pp": 2090,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1235,
+      "fare_pp": 2090,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1235,
+      "fare_pp": 2090,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 125,
+      "fare_pp": 4850,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 125,
+      "fare_pp": 4850,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 125,
+      "fare_pp": 4850,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Manali": {
+    "distance_km": 1952,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 2020,
+      "fare_pp": 1150,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 2020,
+      "fare_pp": 1150,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 2020,
+      "fare_pp": 1150,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 2020,
+      "fare_pp": 1150,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 2020,
+      "fare_pp": 3270,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 2020,
+      "fare_pp": 3270,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 2020,
+      "fare_pp": 3270,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 2020,
+      "fare_pp": 3270,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 175,
+      "fare_pp": 6700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 175,
+      "fare_pp": 6700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 175,
+      "fare_pp": 6700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Rishikesh": {
+    "distance_km": 1701,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1760,
+      "fare_pp": 1020,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1760,
+      "fare_pp": 1020,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1760,
+      "fare_pp": 1020,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1760,
+      "fare_pp": 1020,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1760,
+      "fare_pp": 2880,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1760,
+      "fare_pp": 2880,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1760,
+      "fare_pp": 2880,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1760,
+      "fare_pp": 2880,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 160,
+      "fare_pp": 6100,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 160,
+      "fare_pp": 6100,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 160,
+      "fare_pp": 6100,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Udaipur": {
+    "distance_km": 843,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 1205,
+      "fare_pp": 920,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 1205,
+      "fare_pp": 920,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 1205,
+      "fare_pp": 920,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 1205,
+      "fare_pp": 1470,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 1205,
+      "fare_pp": 1470,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 1205,
+      "fare_pp": 1470,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 870,
+      "fare_pp": 540,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 870,
+      "fare_pp": 540,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 870,
+      "fare_pp": 540,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 870,
+      "fare_pp": 540,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 870,
+      "fare_pp": 1550,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 870,
+      "fare_pp": 1550,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 870,
+      "fare_pp": 1550,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 870,
+      "fare_pp": 1550,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 100,
+      "fare_pp": 4000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 100,
+      "fare_pp": 4000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 100,
+      "fare_pp": 4000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   }
+  },
+  "Mumbai": {
+   "Goa": {
+    "distance_km": 514,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 735,
+      "fare_pp": 610,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 735,
+      "fare_pp": 610,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 735,
+      "fare_pp": 610,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 735,
+      "fare_pp": 1000,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 735,
+      "fare_pp": 1000,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 735,
+      "fare_pp": 1000,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 685,
+      "fare_pp": 360,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 685,
+      "fare_pp": 360,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 685,
+      "fare_pp": 360,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 685,
+      "fare_pp": 360,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 685,
+      "fare_pp": 1040,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 685,
+      "fare_pp": 1040,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 685,
+      "fare_pp": 1040,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 685,
+      "fare_pp": 1040,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 80,
+      "fare_pp": 3250,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 80,
+      "fare_pp": 3250,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 80,
+      "fare_pp": 3250,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Jaipur": {
+    "distance_km": 1151,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1190,
+      "fare_pp": 710,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1190,
+      "fare_pp": 710,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1190,
+      "fare_pp": 710,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1190,
+      "fare_pp": 710,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1190,
+      "fare_pp": 2020,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1190,
+      "fare_pp": 2020,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1190,
+      "fare_pp": 2020,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1190,
+      "fare_pp": 2020,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 120,
+      "fare_pp": 4750,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 120,
+      "fare_pp": 4750,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 120,
+      "fare_pp": 4750,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Manali": {
+    "distance_km": 1907,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1975,
+      "fare_pp": 1130,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1975,
+      "fare_pp": 1130,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1975,
+      "fare_pp": 1130,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1975,
+      "fare_pp": 1130,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1975,
+      "fare_pp": 3200,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1975,
+      "fare_pp": 3200,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1975,
+      "fare_pp": 3200,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1975,
+      "fare_pp": 3200,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 170,
+      "fare_pp": 6600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 170,
+      "fare_pp": 6600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 170,
+      "fare_pp": 6600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Rishikesh": {
+    "distance_km": 1675,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1730,
+      "fare_pp": 1000,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1730,
+      "fare_pp": 1000,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1730,
+      "fare_pp": 1000,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1730,
+      "fare_pp": 1000,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1730,
+      "fare_pp": 2840,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1730,
+      "fare_pp": 2840,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1730,
+      "fare_pp": 2840,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1730,
+      "fare_pp": 2840,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 155,
+      "fare_pp": 6000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 155,
+      "fare_pp": 6000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 155,
+      "fare_pp": 6000,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Udaipur": {
+    "distance_km": 773,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 1105,
+      "fare_pp": 850,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 1105,
+      "fare_pp": 850,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 1105,
+      "fare_pp": 850,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 1105,
+      "fare_pp": 1370,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 1105,
+      "fare_pp": 1370,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 1105,
+      "fare_pp": 1370,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 800,
+      "fare_pp": 510,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 800,
+      "fare_pp": 510,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 800,
+      "fare_pp": 510,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 800,
+      "fare_pp": 510,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 800,
+      "fare_pp": 1440,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 800,
+      "fare_pp": 1440,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 800,
+      "fare_pp": 1440,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 800,
+      "fare_pp": 1440,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 95,
+      "fare_pp": 3850,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 95,
+      "fare_pp": 3850,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 95,
+      "fare_pp": 3850,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   }
+  },
+  "Delhi": {
+   "Goa": {
+    "distance_km": 1875,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1940,
+      "fare_pp": 1110,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1940,
+      "fare_pp": 1110,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1940,
+      "fare_pp": 1110,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1940,
+      "fare_pp": 1110,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1940,
+      "fare_pp": 3150,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1940,
+      "fare_pp": 3150,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1940,
+      "fare_pp": 3150,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1940,
+      "fare_pp": 3150,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 170,
+      "fare_pp": 6500,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 170,
+      "fare_pp": 6500,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 170,
+      "fare_pp": 6500,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Jaipur": {
+    "distance_km": 294,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 420,
+      "fare_pp": 400,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 420,
+      "fare_pp": 400,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 420,
+      "fare_pp": 400,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 420,
+      "fare_pp": 680,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 420,
+      "fare_pp": 680,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 420,
+      "fare_pp": 680,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 390,
+      "fare_pp": 240,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 390,
+      "fare_pp": 240,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 390,
+      "fare_pp": 240,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 390,
+      "fare_pp": 240,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 390,
+      "fare_pp": 700,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 390,
+      "fare_pp": 700,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 390,
+      "fare_pp": 700,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 390,
+      "fare_pp": 700,
+      "comfort": 4,
+      "arrive_before_min": 30
+     }
+    ]
+   },
+   "Manali": {
+    "distance_km": 504,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 720,
+      "fare_pp": 600,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 720,
+      "fare_pp": 600,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 720,
+      "fare_pp": 600,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 720,
+      "fare_pp": 980,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 720,
+      "fare_pp": 980,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 720,
+      "fare_pp": 980,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 670,
+      "fare_pp": 360,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 670,
+      "fare_pp": 360,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 670,
+      "fare_pp": 360,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 670,
+      "fare_pp": 360,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 670,
+      "fare_pp": 1020,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 670,
+      "fare_pp": 1020,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 670,
+      "fare_pp": 1020,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 670,
+      "fare_pp": 1020,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 80,
+      "fare_pp": 3200,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 80,
+      "fare_pp": 3200,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 80,
+      "fare_pp": 3200,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Rishikesh": {
+    "distance_km": 242,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 345,
+      "fare_pp": 350,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 345,
+      "fare_pp": 350,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 345,
+      "fare_pp": 350,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 345,
+      "fare_pp": 600,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 345,
+      "fare_pp": 600,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 345,
+      "fare_pp": 600,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 320,
+      "fare_pp": 210,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 320,
+      "fare_pp": 210,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 320,
+      "fare_pp": 210,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 320,
+      "fare_pp": 210,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 320,
+      "fare_pp": 610,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 320,
+      "fare_pp": 610,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 320,
+      "fare_pp": 610,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 320,
+      "fare_pp": 610,
+      "comfort": 4,
+      "arrive_before_min": 30
+     }
+    ]
+   },
+   "Udaipur": {
+    "distance_km": 709,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 1010,
+      "fare_pp": 790,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 1010,
+      "fare_pp": 790,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 1010,
+      "fare_pp": 790,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 1010,
+      "fare_pp": 1280,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 1010,
+      "fare_pp": 1280,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 1010,
+      "fare_pp": 1280,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 735,
+      "fare_pp": 470,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 735,
+      "fare_pp": 470,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 735,
+      "fare_pp": 470,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 735,
+      "fare_pp": 470,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 735,
+      "fare_pp": 1340,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 735,
+      "fare_pp": 1340,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 735,
+      "fare_pp": 1340,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 735,
+      "fare_pp": 1340,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 90,
+      "fare_pp": 3700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 90,
+      "fare_pp": 3700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 90,
+      "fare_pp": 3700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   }
+  },
+  "Bengaluru": {
+   "Goa": {
+    "distance_km": 617,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 880,
+      "fare_pp": 710,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 880,
+      "fare_pp": 710,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 880,
+      "fare_pp": 710,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 880,
+      "fare_pp": 1140,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 880,
+      "fare_pp": 1140,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 880,
+      "fare_pp": 1140,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 640,
+      "fare_pp": 420,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 640,
+      "fare_pp": 420,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 640,
+      "fare_pp": 420,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 640,
+      "fare_pp": 420,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 640,
+      "fare_pp": 1200,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 640,
+      "fare_pp": 1200,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 640,
+      "fare_pp": 1200,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 640,
+      "fare_pp": 1200,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 85,
+      "fare_pp": 3500,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 85,
+      "fare_pp": 3500,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 85,
+      "fare_pp": 3500,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Jaipur": {
+    "distance_km": 1952,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 2020,
+      "fare_pp": 1150,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 2020,
+      "fare_pp": 1150,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 2020,
+      "fare_pp": 1150,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 2020,
+      "fare_pp": 1150,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 2020,
+      "fare_pp": 3270,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 2020,
+      "fare_pp": 3270,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 2020,
+      "fare_pp": 3270,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 2020,
+      "fare_pp": 3270,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 175,
+      "fare_pp": 6700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 175,
+      "fare_pp": 6700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 175,
+      "fare_pp": 6700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Manali": {
+    "distance_km": 2679,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 2770,
+      "fare_pp": 1550,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 2770,
+      "fare_pp": 1550,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 2770,
+      "fare_pp": 1550,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 2770,
+      "fare_pp": 1550,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 2770,
+      "fare_pp": 4390,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 2770,
+      "fare_pp": 4390,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 2770,
+      "fare_pp": 4390,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 2770,
+      "fare_pp": 4390,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 225,
+      "fare_pp": 8450,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 225,
+      "fare_pp": 8450,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 225,
+      "fare_pp": 8450,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Rishikesh": {
+    "distance_km": 2380,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 2465,
+      "fare_pp": 1390,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 2465,
+      "fare_pp": 1390,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 2465,
+      "fare_pp": 1390,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 2465,
+      "fare_pp": 1390,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 2465,
+      "fare_pp": 3930,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 2465,
+      "fare_pp": 3930,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 2465,
+      "fare_pp": 3930,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 2465,
+      "fare_pp": 3930,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 205,
+      "fare_pp": 7700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 205,
+      "fare_pp": 7700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 205,
+      "fare_pp": 7700,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Udaipur": {
+    "distance_km": 1693,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1750,
+      "fare_pp": 1010,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1750,
+      "fare_pp": 1010,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1750,
+      "fare_pp": 1010,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1750,
+      "fare_pp": 1010,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1750,
+      "fare_pp": 2860,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1750,
+      "fare_pp": 2860,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1750,
+      "fare_pp": 2860,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1750,
+      "fare_pp": 2860,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 160,
+      "fare_pp": 6050,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 160,
+      "fare_pp": 6050,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 160,
+      "fare_pp": 6050,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   }
+  },
+  "Hyderabad": {
+   "Goa": {
+    "distance_km": 675,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 965,
+      "fare_pp": 760,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 965,
+      "fare_pp": 760,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 965,
+      "fare_pp": 760,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 965,
+      "fare_pp": 1230,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 965,
+      "fare_pp": 1230,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 965,
+      "fare_pp": 1230,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 700,
+      "fare_pp": 450,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 700,
+      "fare_pp": 450,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 700,
+      "fare_pp": 450,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 700,
+      "fare_pp": 450,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 700,
+      "fare_pp": 1290,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 700,
+      "fare_pp": 1290,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 700,
+      "fare_pp": 1290,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 700,
+      "fare_pp": 1290,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 90,
+      "fare_pp": 3600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 90,
+      "fare_pp": 3600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 90,
+      "fare_pp": 3600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Jaipur": {
+    "distance_km": 1369,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1415,
+      "fare_pp": 830,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1415,
+      "fare_pp": 830,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1415,
+      "fare_pp": 830,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1415,
+      "fare_pp": 830,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1415,
+      "fare_pp": 2360,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1415,
+      "fare_pp": 2360,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1415,
+      "fare_pp": 2360,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1415,
+      "fare_pp": 2360,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 135,
+      "fare_pp": 5300,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 135,
+      "fare_pp": 5300,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 135,
+      "fare_pp": 5300,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Manali": {
+    "distance_km": 2071,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 2145,
+      "fare_pp": 1220,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 2145,
+      "fare_pp": 1220,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 2145,
+      "fare_pp": 1220,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 2145,
+      "fare_pp": 1220,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 2145,
+      "fare_pp": 3450,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 2145,
+      "fare_pp": 3450,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 2145,
+      "fare_pp": 3450,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 2145,
+      "fare_pp": 3450,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 185,
+      "fare_pp": 6950,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 185,
+      "fare_pp": 6950,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 185,
+      "fare_pp": 6950,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Rishikesh": {
+    "distance_km": 1766,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1825,
+      "fare_pp": 1050,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1825,
+      "fare_pp": 1050,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1825,
+      "fare_pp": 1050,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1825,
+      "fare_pp": 1050,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1825,
+      "fare_pp": 2980,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1825,
+      "fare_pp": 2980,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1825,
+      "fare_pp": 2980,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1825,
+      "fare_pp": 2980,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 165,
+      "fare_pp": 6250,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 165,
+      "fare_pp": 6250,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 165,
+      "fare_pp": 6250,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Udaipur": {
+    "distance_km": 1177,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1215,
+      "fare_pp": 730,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1215,
+      "fare_pp": 730,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1215,
+      "fare_pp": 730,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1215,
+      "fare_pp": 730,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1215,
+      "fare_pp": 2060,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1215,
+      "fare_pp": 2060,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1215,
+      "fare_pp": 2060,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1215,
+      "fare_pp": 2060,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 125,
+      "fare_pp": 4800,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 125,
+      "fare_pp": 4800,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 125,
+      "fare_pp": 4800,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   }
+  },
+  "Ahmedabad": {
+   "Goa": {
+    "distance_km": 1060,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1095,
+      "fare_pp": 660,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1095,
+      "fare_pp": 660,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1095,
+      "fare_pp": 660,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1095,
+      "fare_pp": 660,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1095,
+      "fare_pp": 1880,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1095,
+      "fare_pp": 1880,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1095,
+      "fare_pp": 1880,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1095,
+      "fare_pp": 1880,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 115,
+      "fare_pp": 4550,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 115,
+      "fare_pp": 4550,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 115,
+      "fare_pp": 4550,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Jaipur": {
+    "distance_km": 676,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 965,
+      "fare_pp": 760,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 965,
+      "fare_pp": 760,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 965,
+      "fare_pp": 760,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 965,
+      "fare_pp": 1230,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 965,
+      "fare_pp": 1230,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 965,
+      "fare_pp": 1230,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 700,
+      "fare_pp": 450,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 700,
+      "fare_pp": 450,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 700,
+      "fare_pp": 450,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 700,
+      "fare_pp": 450,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 700,
+      "fare_pp": 1290,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 700,
+      "fare_pp": 1290,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 700,
+      "fare_pp": 1290,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 700,
+      "fare_pp": 1290,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 90,
+      "fare_pp": 3600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 90,
+      "fare_pp": 3600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 90,
+      "fare_pp": 3600,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Manali": {
+    "distance_km": 1401,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1450,
+      "fare_pp": 850,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1450,
+      "fare_pp": 850,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1450,
+      "fare_pp": 850,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1450,
+      "fare_pp": 850,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1450,
+      "fare_pp": 2410,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1450,
+      "fare_pp": 2410,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1450,
+      "fare_pp": 2410,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1450,
+      "fare_pp": 2410,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 140,
+      "fare_pp": 5350,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 140,
+      "fare_pp": 5350,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 140,
+      "fare_pp": 5350,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Rishikesh": {
+    "distance_km": 1210,
+    "options": [
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 1250,
+      "fare_pp": 750,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 1250,
+      "fare_pp": 750,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 1250,
+      "fare_pp": 750,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 1250,
+      "fare_pp": 750,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 1250,
+      "fare_pp": 2120,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 1250,
+      "fare_pp": 2120,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 1250,
+      "fare_pp": 2120,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 1250,
+      "fare_pp": 2120,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "flight-0605",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "06:05",
+      "duration_min": 125,
+      "fare_pp": 4900,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1120",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "11:20",
+      "duration_min": 125,
+      "fare_pp": 4900,
+      "comfort": 5,
+      "arrive_before_min": 120
+     },
+     {
+      "id": "flight-1745",
+      "mode": "flight",
+      "label": "flight",
+      "operator": "Sample Air",
+      "depart": "17:45",
+      "duration_min": 125,
+      "fare_pp": 4900,
+      "comfort": 5,
+      "arrive_before_min": 120
+     }
+    ]
+   },
+   "Udaipur": {
+    "distance_km": 261,
+    "options": [
+     {
+      "id": "bus_seater-0700",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "07:00",
+      "duration_min": 375,
+      "fare_pp": 370,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1500",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "15:00",
+      "duration_min": 375,
+      "fare_pp": 370,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_seater-1930",
+      "mode": "bus_seater",
+      "label": "seater bus",
+      "operator": "Sample Intercity Bus",
+      "depart": "19:30",
+      "duration_min": 375,
+      "fare_pp": 370,
+      "comfort": 2,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-1900",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "19:00",
+      "duration_min": 375,
+      "fare_pp": 630,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2030",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "20:30",
+      "duration_min": 375,
+      "fare_pp": 630,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "bus_sleeper-2145",
+      "mode": "bus_sleeper",
+      "label": "AC sleeper bus",
+      "operator": "Sample Night Coach",
+      "depart": "21:45",
+      "duration_min": 375,
+      "fare_pp": 630,
+      "comfort": 3,
+      "arrive_before_min": 20
+     },
+     {
+      "id": "train_sleeper-0615",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "06:15",
+      "duration_min": 350,
+      "fare_pp": 220,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1340",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "13:40",
+      "duration_min": 350,
+      "fare_pp": 220,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-1950",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "19:50",
+      "duration_min": 350,
+      "fare_pp": 220,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_sleeper-2230",
+      "mode": "train_sleeper",
+      "label": "sleeper-class train",
+      "operator": "Sample Rail Express",
+      "depart": "22:30",
+      "duration_min": 350,
+      "fare_pp": 220,
+      "comfort": 2,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-0705",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "07:05",
+      "duration_min": 350,
+      "fare_pp": 640,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-1420",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "14:20",
+      "duration_min": 350,
+      "fare_pp": 640,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2035",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "20:35",
+      "duration_min": 350,
+      "fare_pp": 640,
+      "comfort": 4,
+      "arrive_before_min": 30
+     },
+     {
+      "id": "train_3ac-2310",
+      "mode": "train_3ac",
+      "label": "3AC train",
+      "operator": "Sample Rail Express",
+      "depart": "23:10",
+      "duration_min": 350,
+      "fare_pp": 640,
+      "comfort": 4,
+      "arrive_before_min": 30
+     }
+    ]
+   }
+  }
+ }
+}

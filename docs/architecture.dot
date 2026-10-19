@@ -1,0 +1,23 @@
+digraph TripGuard {
+  rankdir=LR; fontname="Helvetica"; node [fontname="Helvetica", shape=box, style="rounded,filled", fillcolor="#eef3ff", color="#3b5bdb"]; edge [fontname="Helvetica", fontsize=10];
+  user [label="Student\n(Streamlit UI)", fillcolor="#fff3bf", color="#e67700"];
+  subgraph cluster_agents { label="Agent workflow (LangGraph or built-in runner)"; style=dashed; color="#868e96";
+    planner [label="Planner Agent\nparse request, set strategy,\nrelax after rejection"];
+    research [label="Research Agent\nweather + travel-time matrix\n(live -> cache -> bundled)"];
+    executor [label="Executor Agent\npick transport + stay,\nschedule days, price"];
+    critic [label="Critic Agent\n13 independent checks\n+ narrative grounding", fillcolor="#ffe3e3", color="#c92a2a"];
+    disruption [label="Disruption Agent\nlock booked parts,\nfind affected days"];
+    finalize [label="Finalize Agent\nsummary, diff,\nstatus"];
+  }
+  llm [label="Ollama (local LLM)\nor Mock model\nparse gaps + wording only", fillcolor="#e6fcf5", color="#087f5b"];
+  tools [label="Tools\nOpen-Meteo | OSRM | disk cache\nsynthetic catalog + timetable", fillcolor="#e6fcf5", color="#087f5b"];
+  human [label="Human approval\n+ export (md/json/mock email)", fillcolor="#fff3bf", color="#e67700"];
+  user -> planner [label="trip request"]; planner -> research -> executor -> critic;
+  critic -> planner [label="rejected:\nissues + retries left", color="#c92a2a", fontcolor="#c92a2a"];
+  critic -> finalize [label="passed / exhausted"];
+  user -> disruption [label="delay / cancel /\nrain / closed", style=dashed];
+  disruption -> research [style=dashed, label="targeted repair"];
+  planner -> llm [dir=both, style=dotted]; finalize -> llm [dir=both, style=dotted];
+  research -> tools [dir=both, style=dotted]; executor -> tools [dir=both, style=dotted];
+  finalize -> human; human -> user;
+}
